@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bootcamp.com.batch170.database2.InputBukuActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input Data Buku"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/judulBuku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Judul Buku"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/kategoriBuku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kategori Buku"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/pengarangBuku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pengarang Buku"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/penerbitBuku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Penerbit Buku"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/hargaBuku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Harga Buku"
+        android:inputType="number"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/stokBuku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stok Buku"
+        android:inputType="number"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/buttonSimpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan Buku"
+        android:layout_margin="10dp"/>
+</LinearLayout>

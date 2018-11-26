@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bootcamp.com.batch170">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainMenuActivity" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".belajar.VolleyActivity" />
+        <activity android:name=".belajar.VolleyAdvanceActivity" />
+        <activity android:name=".belajar.DetailPhotoActivity" />
+        <activity android:name=".belajar.VolleyMultilevelJSONActivity" />
+        <activity android:name=".belajar.RetrofitActivity" />
+        <activity android:name=".belajar.RetrofitAdvanceActivity" />
+        <activity android:name=".belajar.CameraActivity" />
+        <activity android:name=".belajar.ImagePickerActivity" />
+        <activity
+            android:name=".belajar.ImageSliderActivity"
+            android:theme="@style/Base.Theme.AppCompat.Light" />
+        <activity android:name=".database1.DaftarMahasiswaActivity" />
+        <activity android:name=".database1.InputDataMahasiswaActivity" />
+        <activity android:name=".database1.DetailMahasiswaActivity" />
+        <activity android:name=".database1.UpdateDataMahasiswaActivity" />
+        <activity android:name=".database2.DaftarBukuActivity" />
+        <activity android:name=".database2.ListBukuActivity" />
+        <activity android:name=".database2.InputBukuActivity" />
+        <activity
+            android:name=".belajar.MasterMenuActivity"
+            android:theme="@style/Base.Theme.AppCompat.Light" />
+        <activity
+            android:name=".belajar.MenuNavigasiActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".belajar.MarcommActivity"></activity>
+    </application>
+
+</manifest>
